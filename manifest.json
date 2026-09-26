@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Vercel Scope Guard",
+    "slug": "00-scope-guard",
+    "sharing": "Company",
+    "file": "00-scope-guard.md",
+    "description": "Verify Vercel program scope, target classification, environment ownership, and allowed testing mode before any research or validation begins."
+  },
+  {
+    "name": "Vercel Change Intelligence",
+    "slug": "01-change-intel",
+    "sharing": "Company",
+    "file": "01-change-intel.md",
+    "description": "Turn recent Vercel releases, commits, changed files, and product signals into a ranked list of concrete security-relevant research hypotheses."
+  },
+  {
+    "name": "Vercel Source Trace",
+    "slug": "02-source-trace",
+    "sharing": "Company",
+    "file": "02-source-trace.md",
+    "description": "Trace attacker-controlled data through Vercel code from source to normalization, guards, state transitions, and security-sensitive sinks."
+  },
+  {
+    "name": "Vercel Variant Hunter",
+    "slug": "03-variant-hunt",
+    "sharing": "Company",
+    "file": "03-variant-hunt.md",
+    "description": "Search Vercel code for sibling paths, alternate parsers, lifecycle branches, and incomplete security-fix coverage around a proven security boundary."
+  },
+  {
+    "name": "Vercel Hypothesis Builder",
+    "slug": "04-hypothesis-builder",
+    "sharing": "Company",
+    "file": "04-hypothesis-builder.md",
+    "description": "Convert Vercel code observations and change signals into narrow, falsifiable security hypotheses with explicit controls and kill conditions."
+  },
+  {
+    "name": "Vercel Local Reproduction",
+    "slug": "05-local-reproduction",
+    "sharing": "Company",
+    "file": "05-local-reproduction.md",
+    "description": "Build minimal, deterministic local reproductions for Vercel OSS hypotheses using stable releases, controlled fixtures, and harmless markers."
+  },
+  {
+    "name": "Vercel Evidence Gate",
+    "slug": "06-evidence-gate",
+    "sharing": "Company",
+    "file": "06-evidence-gate.md",
+    "description": "Challenge every Vercel candidate with baseline, attack, negative controls, server-side effects, repeatability, and explicit impact before confirmation."
+  },
+  {
+    "name": "Vercel Version Gate",
+    "slug": "07-version-gate",
+    "sharing": "Company",
+    "file": "07-version-gate.md",
+    "description": "Verify current stable exposure and distinguish current bugs, regressions, incomplete fixes, historical issues, and non-affected versions."
+  },
+  {
+    "name": "Vercel Duplicate Check",
+    "slug": "08-duplicate-check",
+    "sharing": "Company",
+    "file": "08-duplicate-check.md",
+    "description": "Check Vercel candidates against public issues, pull requests, advisories, CVEs, changelogs, and prior fixes before report promotion."
+  },
+  {
+    "name": "Vercel Severity Review",
+    "slug": "09-severity",
+    "sharing": "Company",
+    "file": "09-severity.md",
+    "description": "Assess a confirmed Vercel vulnerability using proven prerequisites, boundary crossed, confidentiality/integrity/availability impact, and defensible CVSS reasoning."
+  },
+  {
+    "name": "Vercel Report Builder",
+    "slug": "10-report-builder",
+    "sharing": "Company",
+    "file": "10-report-builder.md",
+    "description": "Convert a fully verified Vercel finding into a concise HackerOne-ready report with exact reproduction, controls, evidence, impact, affected versions, and scope context."
+  }
+]

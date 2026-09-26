@@ -1,0 +1,12 @@
+name,slug,sharing,file,description
+Vercel Scope Guard,00-scope-guard,Company,00-scope-guard.md,"Verify Vercel program scope, target classification, environment ownership, and allowed testing mode before any research or validation begins."
+Vercel Change Intelligence,01-change-intel,Company,01-change-intel.md,"Turn recent Vercel releases, commits, changed files, and product signals into a ranked list of concrete security-relevant research hypotheses."
+Vercel Source Trace,02-source-trace,Company,02-source-trace.md,"Trace attacker-controlled data through Vercel code from source to normalization, guards, state transitions, and security-sensitive sinks."
+Vercel Variant Hunter,03-variant-hunt,Company,03-variant-hunt.md,"Search Vercel code for sibling paths, alternate parsers, lifecycle branches, and incomplete security-fix coverage around a proven security boundary."
+Vercel Hypothesis Builder,04-hypothesis-builder,Company,04-hypothesis-builder.md,"Convert Vercel code observations and change signals into narrow, falsifiable security hypotheses with explicit controls and kill conditions."
+Vercel Local Reproduction,05-local-reproduction,Company,05-local-reproduction.md,"Build minimal, deterministic local reproductions for Vercel OSS hypotheses using stable releases, controlled fixtures, and harmless markers."
+Vercel Evidence Gate,06-evidence-gate,Company,06-evidence-gate.md,"Challenge every Vercel candidate with baseline, attack, negative controls, server-side effects, repeatability, and explicit impact before confirmation."
+Vercel Version Gate,07-version-gate,Company,07-version-gate.md,"Verify current stable exposure and distinguish current bugs, regressions, incomplete fixes, historical issues, and non-affected versions."
+Vercel Duplicate Check,08-duplicate-check,Company,08-duplicate-check.md,"Check Vercel candidates against public issues, pull requests, advisories, CVEs, changelogs, and prior fixes before report promotion."
+Vercel Severity Review,09-severity,Company,09-severity.md,"Assess a confirmed Vercel vulnerability using proven prerequisites, boundary crossed, confidentiality/integrity/availability impact, and defensible CVSS reasoning."
+Vercel Report Builder,10-report-builder,Company,10-report-builder.md,"Convert a fully verified Vercel finding into a concise HackerOne-ready report with exact reproduction, controls, evidence, impact, affected versions, and scope context."
